@@ -33,7 +33,11 @@ function fun(){
             qua4 += 1
         
         if(last){
-            console.log(qua1+" "+qua2+" "+qua3+" "+qua4)
+            //console.log(qua1+" "+qua2+" "+qua3+" "+qua4)
+            console.log(qua2+" | "+qua1)
+            console.log("-------")
+            console.log(qua3+" | "+qua4)
+
             fs.truncate('./data.txt', 0, function(){console.log('')})
 
         }
