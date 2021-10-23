@@ -7,7 +7,4 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve,ms));
     
     var res = randomgen.random();
     addCoordinateData.addCoordinateData(res)
-    //console.log("Thread 2 Success");
-    //await delay(2000);
-
 

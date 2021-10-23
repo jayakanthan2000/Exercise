@@ -1,10 +1,6 @@
-
-
 const fs = require('fs')
 const lineReader = require('line-reader');
 global.list = new Array()
-
-
 
 function fun(){
     /*try {
@@ -44,7 +40,6 @@ function fun(){
 
         ///console.log(x[0])
     })
-    //console.log(qua1+" "+qua2+" "+qua3)
 
 };
 

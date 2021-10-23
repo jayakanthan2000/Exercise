@@ -1,13 +1,8 @@
 fs = require('fs');
 
 
-
-
 var coordinateList = []
 qua1 = qua2 = qua3 = qua4 = 0
-
-// console.log(qua1);
-
 
 function addCoordinateData(x) {
     //console.log(x);
@@ -18,10 +13,6 @@ function addCoordinateData(x) {
   
 }
 
-function printDatabase() {
-    // corordinateList.push([x,y]);
-    console.log(coordinateList);
-}
 
 module.exports = {addCoordinateData, printDatabase}
 

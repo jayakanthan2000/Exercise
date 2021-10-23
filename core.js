@@ -86,8 +86,5 @@ async function runMyCronJob() {
     }
 
 
-
-
-
 module.exports = runMyCronJob
 
